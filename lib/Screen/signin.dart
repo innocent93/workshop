@@ -95,7 +95,8 @@ class _SignInScreenState extends State<SignInScreen> {
                                     Navigator.pushReplacement(
                                         context,
                                         MaterialPageRoute(
-                                            builder: (context) => const HomePage()));
+                                            builder: (context) =>
+                                                const HomePage()));
                                   }
                                 });
                               }
@@ -113,6 +114,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       child: const Text("Go to Regiser")),
                 )
               ],
+              // end of column
             ),
           ),
         ));
